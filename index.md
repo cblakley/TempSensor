@@ -1,12 +1,4 @@
----
-tagline: Website with GitHub Pages
-description: Simple website with GitHub Pages
-layout: page
-title: simple site
----
 
-Example Blog.
--------------
 
 ### October 2,2018
 Proof of Purchase 
@@ -20,7 +12,7 @@ Created [budget](https://github.com/cblakley/TempSensor/blob/master/Documentatio
 ### September 18, 2018
 
 Created [project schedule](https://github.com/cblakley/TempSensor/blob/master/Documentation/ProjectSchedule.mpp).  
-![Image of Schedule](https://raw.githubusercontent.com/six0four/StudentSenseHat/master/documentation/Week3RubricforProjectSchedule.jpg)
+
 
 ### September 11, 2018
 
