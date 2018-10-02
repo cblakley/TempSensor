@@ -2,8 +2,8 @@
 
 ### October 2,2018
 Proof of Purchase 
-![Image of Pi](https://github.com/cblakley/cblakley.github.io/blob/master/images/RaspPi%20ProofOfPurchase.PNG)
-![Image of Sensor](https://github.com/cblakley/cblakley.github.io/blob/master/images/Sensor%20ProofOfPurchase.PNG)
+![Image of Pi](https://github.com/cblakley/TempSensor/blob/master/images/RaspPi%20ProofOfPurchase.PNG)
+![Image of Sensor](https://github.com/cblakley/TempSensor/blob/master/images/Sensor%20ProofOfPurchase.PNG)
 
 ### September 25, 2018
 
