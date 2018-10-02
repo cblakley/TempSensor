@@ -11,7 +11,7 @@ Created [budget](https://github.com/cblakley/TempSensor/blob/master/Documentatio
 
 ### September 18, 2018
 
-Created [project schedule](https://github.com/cblakley/TempSensor/blob/master/Documentation/ProjectSchedule.mpp).  
+Created [project schedule](https://github.com/cblakley/TempSensor/master/Documentation/ProjectSchedule.mpp).  
 
 
 ### September 11, 2018
