@@ -1,5 +1,5 @@
 
-###October 9,2018
+### October 9,2018
 Set up my raspberry pi
 Ran traffic2B.c, The LED on my Pi blinks green.
 
