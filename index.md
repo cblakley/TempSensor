@@ -1,4 +1,7 @@
 
+###October 9,2018
+Set up my raspberry pi
+Ran traffic2B.c, The LED on my Pi blinks green.
 
 ### October 2,2018
 Proof of Purchase 
