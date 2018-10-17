@@ -1,4 +1,7 @@
 
+### October 16,2018
+Completed the pseudo code assignment. 
+Did not make it to class do to an illness.
 ### October 9,2018
 Set up my raspberry pi
 Ran traffic2B.c, The LED on my Pi blinks green.
