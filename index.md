@@ -4,7 +4,8 @@ Completed wiring of sensor to PI.
 Progess  Report:
 Wiring is done, but could not connect to the Pi with remote desktop. The Pi's setting are not set up properly.
 ## Update 
-Can now connect to Pi with VNC server! 
+Can now connect to Pi with VNC server!
+
 Finacial Status: 
 Had to make additioanl purshase's; a ethernet to usb connector.
 ### October 16,2018
