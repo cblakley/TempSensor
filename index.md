@@ -2,7 +2,9 @@
 Completed wiring of sensor to PI.
 ![Image of Wiring](https://github.com/cblakley/TempSensor/blob/master/20181023_124300.jpg?raw=true)
 Progess  Report:
-Wiring is done, but could not connect to the Pi with remote desktop. The Pi's setting are not set up properly.  
+Wiring is done, but could not connect to the Pi with remote desktop. The Pi's setting are not set up properly.
+## Update 
+Can now connect to Pi with VNC server! 
 Finacial Status: 
 Had to make additioanl purshase's; a ethernet to usb connector.
 ### October 16,2018
