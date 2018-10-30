@@ -1,3 +1,9 @@
+## October 30, 2018
+
+Frizting Completed
+![Image of PCB](https://github.com/cblakley/TempSensor/blob/master/images/TempSensor_pcb.png?raw=true)
+Need to purshase a six pin and four pin header.
+
 ### October 23, 2018
 Completed wiring of sensor to PI.
 ![Image of Wiring](https://github.com/cblakley/TempSensor/blob/master/20181023_124300.jpg?raw=true)
