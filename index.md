@@ -1,3 +1,11 @@
+## Noverber 13, 2018
+Soldering completed
+Top view![top of PCB](https://github.com/cblakley/TempSensor/blob/master/images/20181113_122428.jpg?raw=true)
+Bottom View![bottom of PCB](https://github.com/cblakley/TempSensor/blob/master/images/20181113_121008.jpg?raw=true)
+## November 6, 2018
+Got my PCB ![Image of PCB](https://github.com/cblakley/TempSensor/blob/master/images/20181106_115753.jpg?raw=true)
+If I were to do this again I would spread out the resitor holes so they sit properly.
+
 ## October 30, 2018
 
 Frizting Completed
