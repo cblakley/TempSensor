@@ -8,8 +8,10 @@
 3. [TempSensor Design Files](#TempSensor-design-files)
 4. [TempSensor Assembly](#TempSensor-assembly)
 
-###Introduction
+##Introduction
 
-###TempSensor Specification
-###TempSensor Design Files
+##TempSensor Specification
+
+#TempSensor Design Files
+
 ###TempSensor Assembly
