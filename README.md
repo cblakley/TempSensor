@@ -1,6 +1,5 @@
 # TempSensor
 
-# An interface board for the Broadcom development platform also known as the Raspberry Pi
 
 ## Table of Contents
 1. [Introduction](#introduction)
@@ -12,6 +11,6 @@
 
 ##TempSensor Specification
 
-#TempSensor Design Files
+##TempSensor Design Files
 
-###TempSensor Assembly
+##TempSensor Assembly
