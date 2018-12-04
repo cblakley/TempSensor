@@ -1,4 +1,13 @@
-## Noverber 13, 2018
+## December 4, 2018
+![Powerpoint](https://github.com/cblakley/TempSensor/blob/master/Documentation/CENG317.pptx)
+After the Pi I had died and having to redo my PCB everything is finally up and running!
+
+Pictures of the completed new PCB.
+Top view![top view](https://github.com/cblakley/TempSensor/blob/master/images/20181204_003534.jpg?raw=true)
+Bottom View![bottom view](https://github.com/cblakley/TempSensor/blob/master/images/20181204_003540.jpg?raw=true)
+The address being derected![i2cdetect](https://github.com/cblakley/TempSensor/blob/master/images/Picture1.png?raw=true)
+Data being read out![data](https://github.com/cblakley/TempSensor/blob/master/images/Picture2.png?raw=true)
+## November 13, 2018
 
 Soldering completed
 Top view![top of PCB](https://github.com/cblakley/TempSensor/blob/master/images/20181113_122428.jpg?raw=true)
