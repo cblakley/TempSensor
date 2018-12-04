@@ -31,3 +31,15 @@ One 6 I/O pin Elevated Socket Connector avalible [here](https://www.digikey.ca/p
 ## TempSensor Design Files
 
 ## TempSensor Assembly
+Once the PCB has been recived its time to solder everything together.
+
+First solder the 4 vias on the board. The vias are circled in red.
+
+The top![image of top](https://github.com/cblakley/TempSensor/blob/master/images/via_top.jpg?raw=true)
+
+The bottom![image of bottom](https://github.com/cblakley/TempSensor/blob/master/images/via_bottom.jpg?raw=true)
+
+Then solder the 4 pin header to the PCB![image of 4 pin](https://github.com/cblakley/TempSensor/blob/master/images/4_pin.jpg?raw=true) Solder the 4 pins from the bottom only.
+
+And finally solder the 6 pin I/O extender.![image of 6 pin](https://github.com/cblakley/TempSensor/blob/master/images/6_pin.jpg?raw=true) Only pins 4,6 and 3,5 need to be soldered. The 6 pin extender should be soldered from the top only.
+
