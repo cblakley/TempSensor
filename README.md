@@ -43,12 +43,24 @@ Then solder the 4 pin header to the PCB![image of 4 pin](https://github.com/cbla
 
 And finally solder the 6 pin I/O extender.![image of 6 pin](https://github.com/cblakley/TempSensor/blob/master/images/6_pin.jpg?raw=true) Only pins 4,6 and 3,5 need to be soldered. The 6 pin extender should be soldered from the top only.
 ## Raspberry Pi Setup
-If your raspberry pi still need to be set up, I'd recommend this guide to set up using NOOBS[https://www.raspberrypi.org/help/noobs-setup/2/] 
+If your raspberry pi still need to be set up, I'd recommend this guide to set up using [NOOBS](https://www.raspberrypi.org/help/noobs-setup/2/)
 ->Once the OS is installed, enable I2C by going to preferences->
 
 ## PCB Power up
 After soldering its time to attach the PCB to the Raspberry Pi. The 6 pin header plugs into the Pi's GPIO header. 
 
-To check if the Pi can detect the AM2135 sensor open a terminal window and run the command "i2c detect -y1". You'll need to run the command twice in quick succession as the sensor will be in a sleep mode. ![https://github.com/cblakley/TempSensor/blob/master/images/i2cdetect.png?raw=true] 
+To check if the Pi can detect the AM2135 sensor open a terminal window and run the command "i2c detect -y1". You'll need to run the command twice in quick succession as the sensor will be in a sleep mode. ![image of i2c detect](https://github.com/cblakley/TempSensor/blob/master/images/i2cdetect.png?raw=true) 
+
+If the Pi can dectect the sensor its time to install the software to read in the data from the sensor. 
+First move into the Downloads folder. cd Downloads
+
+Then run the command sudo get-apt install git. We need to install git to clone the github repository with the software we need.
+
+Once git is installed run the command git clone https://github.com/lexruee/am2315.git. Once this is done move into the newly created folder am2315.From here run the command sudo python setup.py install to set up python on your Pi. 
+
+Finally move into the examples folder and run the example python script. Do this by running the command python examples.py
+
+These steps are taken from this [guide](http://sopwith.ismellsmoke.net/?p=556). We only used steps 5 and 6.(Note: In the guide the example script is called testpy, where as it is now named example.py)
+
 
 
