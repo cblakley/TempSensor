@@ -64,7 +64,7 @@ Once the OS is installed, enable I2C by going to preferences->
 ## PCB Power up
 After soldering its time to attach the PCB to the Raspberry Pi. The 6 pin header plugs into the Pi's GPIO header. 
 
-To check if the Pi can detect the AM2135 sensor open a terminal window and run the command "i2c detect -y 1". You'll need to run the command twice in quick succession as the sensor will be in a sleep mode. ![image of i2c detect](https://github.com/cblakley/TempSensor/blob/master/images/i2cdetect.png?raw=true) 
+To check if the Pi can detect the AM2135 sensor open a terminal window and run the command "i2c detect -y 1". You'll need to run the command twice in quick succession as the sensor will be in a sleep mode. ![image of i2c detect](https://github.com/cblakley/TempSensor/blob/master/images/i2cdetect.png?raw=true) We are looking for address 5c.
 
 If the Pi can dectect the sensor its time to install the software to read in the data from the sensor. 
 First move into the Downloads folder. cd Downloads
