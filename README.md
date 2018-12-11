@@ -31,6 +31,10 @@ One 6 I/O pin Elevated Socket Connector avalible [here](https://www.digikey.ca/p
 
 ![Image of 6 pin Extender](https://media.digikey.com/Photos/Samtec%20Photos/ESQ-103-14-G-D_sml.JPG)
 ## TempSensor Design Files
+The PCB was designed in Fritizing
+![breadboard](https://github.com/cblakley/TempSensor/blob/master/images/breadboarddesign.png?raw=true)
+![scematic](https://github.com/cblakley/TempSensor/blob/master/images/scematicdesign.png?raw=true)
+![PCB](https://github.com/cblakley/TempSensor/blob/master/images/pcbdesign.png?raw=true)
 
 ## TempSensor Assembly
 Once the PCB has been recived its time to solder everything together.
@@ -45,13 +49,13 @@ Then solder the 4 pin header to the PCB![image of 4 pin](https://github.com/cbla
 
 And finally solder the 6 pin I/O extender.![image of 6 pin](https://github.com/cblakley/TempSensor/blob/master/images/6_pin.jpg?raw=true) Only pins 4,6 and 3,5 need to be soldered. The 6 pin extender should be soldered from the top only.
 ## Raspberry Pi Setup
-If your raspberry pi still need to be set up, I'd recommend this guide to set up using [NOOBS](https://www.raspberrypi.org/help/noobs-setup/2/)
-->Once the OS is installed, enable I2C by going to preferences->
+If your raspberry pi still need to be set up, I'd recommend this guide to set up using [NOOBS.](https://www.raspberrypi.org/help/noobs-setup/2/)
+Once the OS is installed, enable I2C by going to preferences->
 
 ## PCB Power up
 After soldering its time to attach the PCB to the Raspberry Pi. The 6 pin header plugs into the Pi's GPIO header. 
 
-To check if the Pi can detect the AM2135 sensor open a terminal window and run the command "i2c detect -y1". You'll need to run the command twice in quick succession as the sensor will be in a sleep mode. ![image of i2c detect](https://github.com/cblakley/TempSensor/blob/master/images/i2cdetect.png?raw=true) 
+To check if the Pi can detect the AM2135 sensor open a terminal window and run the command "i2c detect -y 1". You'll need to run the command twice in quick succession as the sensor will be in a sleep mode. ![image of i2c detect](https://github.com/cblakley/TempSensor/blob/master/images/i2cdetect.png?raw=true) 
 
 If the Pi can dectect the sensor its time to install the software to read in the data from the sensor. 
 First move into the Downloads folder. cd Downloads
@@ -67,7 +71,14 @@ These steps are taken from this [guide](http://sopwith.ismellsmoke.net/?p=556). 
 
 ## Unit Testing
 
+Test the sensor by changing the enviroment the sensor is in a check to see if the data changes. Additionally get a reliable thermometer and compare the two vaules, the sensor should be within +/- 0.3 degrees Celsius. The same can be dome with a hygrometer to test the relative humidty reading. The readings should be within +/- 2% Relative humidity.
+
 ## Production Testing 
 
+If this project were to be brought up to a large scale the only design change that should be made would be to quick connect plug for the sensor for easy connecting and disconnecting of the sensor to and from the PCB. 
+
+## Reproducabilty
+
+This project should be quite simple to reproduce following this guide. 
 
 
