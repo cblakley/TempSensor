@@ -42,4 +42,13 @@ The bottom![image of bottom](https://github.com/cblakley/TempSensor/blob/master/
 Then solder the 4 pin header to the PCB![image of 4 pin](https://github.com/cblakley/TempSensor/blob/master/images/4_pin.jpg?raw=true) Solder the 4 pins from the bottom only.
 
 And finally solder the 6 pin I/O extender.![image of 6 pin](https://github.com/cblakley/TempSensor/blob/master/images/6_pin.jpg?raw=true) Only pins 4,6 and 3,5 need to be soldered. The 6 pin extender should be soldered from the top only.
+## Raspberry Pi Setup
+If your raspberry pi still need to be set up, I'd recommend this guide to set up using NOOBS[https://www.raspberrypi.org/help/noobs-setup/2/] 
+->Once the OS is installed, enable I2C by going to preferences->
+
+## PCB Power up
+After soldering its time to attach the PCB to the Raspberry Pi. The 6 pin header plugs into the Pi's GPIO header. 
+
+To check if the Pi can detect the AM2135 sensor open a terminal window and run the command "i2c detect -y1". You'll need to run the command twice in quick succession as the sensor will be in a sleep mode. ![https://github.com/cblakley/TempSensor/blob/master/images/i2cdetect.png?raw=true] 
+
 
