@@ -6,14 +6,16 @@
 2. [TempSensor Specifications](#TempSensor-specifications-and-parts)
 3. [TempSensor Design Files](#TempSensor-design-files)
 4. [TempSensor Assembly](#TempSensor-assembly)
+5. [PCB Power Up](#PCB-power-up)
 
 ## Introduction
 
+![completed project](https://github.com/cblakley/TempSensor/blob/master/images/completed%20projectv2.png?raw=true)
 The TempSensor i2c device is a fully enclosed temperature and humdity sensor. The  The TempSensor is built on the Broadcom develompent platfrom, using a Raspberry Pi 3B+. The device reads in temperature and humidity data and using a python script it displays the infromation to the user. 
 
 ## TempSensor Specifications and Parts
 
-In order the build the TempSensor a couple of things are needed first. A full list of parts is avilable [here](https://github.com/cblakley/TempSensor/blob/master/Documentation/CENG319Budget.xlsx?raw=true).
+In order the build the TempSensor a couple of things are needed first. A full list of parts is avilable [here](https://github.com/cblakley/TempSensor/blob/master/Documentation/CENG319Budget.xlsx?raw=true). The cost of this project is $200.
 
 Most importantly the Raspberry Pi. If one is not avalible I'd recommend the Canakit starter kit which is avalible [here](https://www.amazon.ca/CanaKit-Raspberry-Starter-Premium-Black/dp/B07BCC8PK7/ref=sr_1_1_sspa?s=pc&ie=UTF8&qid=1543943043&sr=1-1-spons&keywords=raspberry+pi+3+b%2B&psc=1) from Amazon Canda.
 
@@ -59,8 +61,13 @@ Then run the command sudo get-apt install git. We need to install git to clone t
 Once git is installed run the command git clone https://github.com/lexruee/am2315.git. Once this is done move into the newly created folder am2315.From here run the command sudo python setup.py install to set up python on your Pi. 
 
 Finally move into the examples folder and run the example python script. Do this by running the command python examples.py
+The out put should look something like ![this](https://github.com/cblakley/TempSensor/blob/master/images/readdata.png?raw=true)
 
 These steps are taken from this [guide](http://sopwith.ismellsmoke.net/?p=556). We only used steps 5 and 6.(Note: In the guide the example script is called testpy, where as it is now named example.py)
+
+## Unit Testing
+
+## Production Testing 
 
 
 
