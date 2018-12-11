@@ -9,7 +9,7 @@
 5. [PCB Power Up](#PCB-power-up)
 6. [Unit Testing](#Unit-testing)
 7. [Production Testing](#production-testing)
-8. [Reproducibility](#reproducibility)
+
 
 ## Introduction
 
@@ -86,6 +86,3 @@ Test the sensor by changing the environment the sensor is in a check to see if t
 
 If this project were to be brought up to a large scale the only design change that should be made would be to quick connect plug for the sensor for easy connecting and disconnecting of the sensor to and from the PCB. 
 
-## Reproducibility
-
-This project should be quite simple to reproduce following this guide.
