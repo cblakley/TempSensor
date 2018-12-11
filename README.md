@@ -14,7 +14,7 @@
 ## Introduction
 
 ![completed project](https://github.com/cblakley/TempSensor/blob/master/images/completed%20projectv2.png?raw=true)
-The TempSensor i2c device is a fully enclosed temperature and humidity sensor. The  TempSensor is built on the Broadcom development platform, using a Raspberry Pi 3B+. The device reads in temperature and humidity data and using a python script it displays the information to the user. The timeline for this project was 15 weeks, see the schedule [here](https://github.com/cblakley/TempSensor/blob/master/Documentation/ProjectSchedule.mpp)The cost of this project is $200.
+The TempSensor i2c device is a fully enclosed temperature and humidity sensor. The  TempSensor is built on the Broadcom development platform, using a Raspberry Pi 3B+. The device reads in temperature and humidity data and using a python script it displays the information to the user. The timeline for this project was 15 weeks, see the schedule [here.](https://github.com/cblakley/TempSensor/blob/master/Documentation/ProjectSchedule.mpp) The cost of this project is $200.
 
 ## TempSensor Specifications and Parts
 
