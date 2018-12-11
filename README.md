@@ -23,13 +23,19 @@ The AM2315 Sensor itself avalible [here](https://www.adafruit.com/product/1293) 
 
 ![Image of Sensor](https://cdn-shop.adafruit.com/970x728/1293-01.jpg)
 
+Image source here: https://cdn-shop.adafruit.com/970x728/1293-01.jpg
+
 One 4 pin header avalible [here](https://www.digikey.ca/product-detail/en/sullins-connector-solutions/PPTC041LFBN-RC/S7002-ND/810144) from Digi-Key.
 
 ![Image of Header](https://media.digikey.com/photos/Sullins%20Photos/PPTC041LFBN-RC_sml.jpg)
 
+Image source here: https://media.digikey.com/photos/Sullins%20Photos/PPTC041LFBN-RC_sml.jpg
+
 One 6 I/O pin Elevated Socket Connector avalible [here](https://www.digikey.ca/products/en?keywords=SAM9289-ND) which is also from Digi-Key.
 
 ![Image of 6 pin Extender](https://media.digikey.com/Photos/Samtec%20Photos/ESQ-103-14-G-D_sml.JPG)
+
+Image source here: https://media.digikey.com/Photos/Samtec%20Photos/ESQ-103-14-G-D_sml.JPG
 ## TempSensor Design Files
 The PCB was designed in Fritizing
 ![breadboard](https://github.com/cblakley/TempSensor/blob/master/images/breadboarddesign.png?raw=true)
