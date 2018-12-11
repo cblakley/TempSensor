@@ -7,6 +7,9 @@
 3. [TempSensor Design Files](#TempSensor-design-files)
 4. [TempSensor Assembly](#TempSensor-assembly)
 5. [PCB Power Up](#PCB-power-up)
+6. [Unit Testing](#Unit-testing)
+7. [Production Testing](#production-testing)
+8. [Reproducabilty](#reproducabilty)
 
 ## Introduction
 
